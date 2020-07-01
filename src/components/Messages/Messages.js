@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { setUserPosts } from "../../actions";
 import firebase from "../../firebase";
 
-import MessagesHeader from "./MessagesHeader";
+import MessagesHeader from "./MessgesHeader";
 import MessageForm from "./MessageForm";
 import Message from "./Message";
 import Typing from "./Typing";
