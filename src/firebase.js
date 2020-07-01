@@ -9,7 +9,7 @@ var config = {
   databaseURL: "https://react-slack-clone-cf295.firebaseio.com",
   projectId: "react-slack-clone-cf295",
   storageBucket: "react-slack-clone-cf295.appspot.com",
-  messagingSenderId: "G-L3ZY014T9J"
+  messagingSenderId: "922664530055",
 };
 firebase.initializeApp(config);
 
