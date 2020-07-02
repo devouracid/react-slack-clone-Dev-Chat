@@ -3,7 +3,7 @@ import * as actionTypes from "../actions/types";
 
 const initialUserState = {
   currentUser: null,
-  isLoading: true
+  isLoading: false
 };
 
 const user_reducer = (state = initialUserState, action) => {
