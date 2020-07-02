@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { setUserPosts } from "../../actions";
 import firebase from "../../firebase";
 
-import MessagesHeader from "./MessgesHeader";
+import MessagesHeader from "./MessagesHeader";
 import MessageForm from "./MessageForm";
 import Message from "./Message";
 import Typing from "./Typing";
@@ -103,6 +103,9 @@ class Messages extends React.Component {
     this.addToListeners(channelId, this.state.typingRef, "child_removed");
 
     this.state.connectedRef.on("value", snap => {
+      this.setState ({
+        messagesLoading: false,
+      });
       if (snap.val() === true) {
         this.state.typingRef
           .child(channelId)
