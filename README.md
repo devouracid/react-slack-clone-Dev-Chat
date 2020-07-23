@@ -1,14 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 
+Project Link:
+https://react-slack-clone-cf295.web.app/
+#
 
-## Available Scripts
+# Slack Chat App 
 
-In the project directory, you can run:
-
-### `npm start`
-
-
-This is a Slack Clone that I built with ReactJS, Redux and FireBase. I followed along with a uDemy course. 
-You can find the application here https://react-slack-clone-cf295.web.app// (https://react-slack-clone-cf295.web.app/)
+A chatroom application that lets users join different chatrooms, send messages to people in those rooms, and private message other members.
 
 
-This is a chatroom application that lets users join different chatrooms, send messages to people in those rooms, and private message other members. Enjoy!
+## Built With
+
+* React  (https://reactjs.org/)- The web framework used
+* Redux
+* Firebase
+
+
+## Author
+
+👤  **David Cuero(https://github.com/devouracid)**
+
+
