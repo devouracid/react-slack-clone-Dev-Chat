@@ -14,6 +14,15 @@ A chatroom application that lets users join different chatrooms, send messages t
 * Redux
 * Firebase
 
+## Features
+* User authentication with Firebase (Register & Login)
+* Form validations for our Register & Login forms
+* Create Public Channels
+* Send and receive messages instantly with the real-time Firebase Database
+* Upload and Display image in messages using Firebase Storage
+* Starred / un-starred public channels
+* Show Channel Information with top active users
+* Create and Upload user avatars
 
 ## Author
 
